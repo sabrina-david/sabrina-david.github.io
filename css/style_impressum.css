@@ -46,37 +46,86 @@
 }
 
 /*main-jumbotron*/
-
-.jumbotron .container-fluide h1 {
-	font-size: 27px;
-}
-
 .jumbotron .container-fluide p {
-	font-size: 16px;
+	font-size: 14px;
 }
 
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 58%;
-	margin-right: auto;
-	margin-left: auto;
+/*_row*/
+
+#wrap main .row {
+	margin-left: 36px;
+	margin-right: 36px;	
+}
+/*article_adresse*/
+.article_adresse {
+	margin-top: 10px;
+}
+/*article_adresse_h2*/
+.article_adresse h2 {
+	font-size: 20px;
 }
 
-.figure_third {
-	margin-left: -111px;
-	margin-right:-123px;
+/*article_adresse_p*/
+.article_adresse p {
+	font-size: 15px;
 }
 
 
-.figure_third ul {
-	font-size: 16px;
-	margin-top: 26px;
-	float: left;
+
+/*article_tel_h2*/
+.article_tel h2 {
+	font-size: 20px;
 }
 
- .figure_third ul li a:hover  {
-	font-size: 17px;
+/*article_tel_p*/
+.article_tel p {
+	font-size: 15px;
+}
+
+
+
+/*article_natel_h2*/
+.article_natel h2 {
+	font-size: 20px;
+}
+
+/*article_tel_p*/
+.article_natel p {
+	font-size: 15px;
+}
+
+
+
+
+/*article_email_h2*/
+.article_email h2 {
+	font-size: 20px;
+}
+
+/*article_email_p*/
+.article_email p {
+	font-size: 15px;
+}
+
+
+
+/*article_website_h2*/
+.article_website h2 {
+	font-size: 20px;
+}
+
+/*article_email_p*/
+.article_website p {
+	font-size: 15px;
+}
+
+
+/*main_urheberrechte_p*/
+.urheberrechte p {
+	font-size: 14px;
+	margin-right: 44px;
+	margin-left: 44px;
+	margin-top: 28px;
 }
 
 /*hr*/
@@ -88,7 +137,7 @@ hr {
 	border-top-color: #CCC;
 	margin-left: 24px;
 	margin-right: 60px;
-	margin-top: 52%;
+	margin-top: 1%;
 }
 
 
@@ -152,7 +201,6 @@ footer .section_3 .container a:hover {
 .nav.navbar-nav .active a {
 	color: #00F;
 	font-size: 15px;
-	
 }
 
 /*Hamburger li, a:hover */
@@ -161,41 +209,81 @@ footer .section_3 .container a:hover {
 	font-size: 16px;
 	font-weight: bold;
 	background-color: #fff;
-	
 }
 
 
-/*main-jumbotron*/
-.jumbotron .container-fluide h1 {
-	font-size: 20px;
+/*_row*/
+
+#wrap main .row {
+	margin-left: 6px;
+	margin-right: 6px;	
 }
 
-.jumbotron .container-fluide p {
-	font-size: 14px;
+/*article_adresse_h2*/
+.article_adresse h2 {
+	font-size: 17px;
 }
 
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 68%;
-	
-}
-
-.figure_third {
-	margin-left: 0px;
-	margin-right:-12px;
-}
-
-
-.figure_third ul {
+/*article_adresse_h2*/
+.article_adresse p {
 	font-size: 15px;
-	margin-top: 13px;
-	float: left;
 }
 
-.figure_third ul li a:hover  {
-	font-size: 16px;
+
+/*article_tel_h2*/
+.article_tel h2 {
+	font-size: 17px;
 }
+
+/*article_tel_p*/
+.article_tel p {
+	font-size: 15px;
+}
+
+/*article_natel_h2*/
+.article_natel h2 {
+	font-size: 17px;
+}
+
+/*article_tel_p*/
+.article_natel p {
+	font-size: 15px;	color: #fff;
+	text-align: center;
+	padding-bottom: 12px;
+}
+
+
+
+/*article_email_h2*/
+.article_email h2 {
+	font-size: 17px;
+}
+
+/*article_email_p*/
+.article_email p {
+	font-size: 15px;
+}
+
+/*article_website_h2*/
+.article_website h2 {
+	font-size: 17px;
+}
+
+/*article_website_p*/
+.article_website p {
+	font-size: 15px;
+}
+
+
+/*main_urheberrechte_p*/
+.urheberrechte p {
+	font-size: 14px;
+	margin-right: 34px;
+	margin-left: 24px;
+	margin-top: 28px;
+}
+
+
 
 
 /*hr*/
@@ -206,7 +294,7 @@ hr {
 	border-top-color: #CCC;
 	margin-left: 20px;
 	margin-right: 40px;
-	margin-top: 85%;
+	margin-top: 1%;
 }
 
 /*footer-1-adresse*/
@@ -231,10 +319,10 @@ hr {
 /*Impressum_AGB_Kontakt*/
 footer .section_3 .container a {
 	font-size: 11px;
-	
 	padding-right: 2px;
 	padding-left:1px;
 }
+
 /*Impressum_AGB_Kontakt*/
 footer .section_3 .container a:hover {
 	font-size: 11px;
@@ -244,7 +332,6 @@ footer .section_3 .container a:hover {
 .section_3 .container span {
 	float:right;
 	font-size:10px;
-	
 }
 }
 
@@ -263,13 +350,10 @@ footer .section_3 .container a:hover {
 }
 
 
-
-
 /*Hamburger li, a */
 .nav.navbar-nav .active a {
 	font-size: 13px;
 	text-align:center;
-	
 }
 
 
@@ -278,45 +362,91 @@ footer .section_3 .container a:hover {
 	text-align: center;
 	font-size: 14px;
 }
-
-
-
-
-
-
+	
 /*jumbtron h1*/
 .jumbotron .container-fluide h1 {
-	
-	font-size: 18px;
-	
+	font-size: 18.5px;
 }
 
 /*jumbtron p*/
 .jumbotron .container-fluide p {
 	font-size: 12px;
-	
 }
 
-/*main-figure*/
-.figure {
-	width: 68%;
+/*_row*/
+
+#wrap main .row {
+	margin-left: 6px;
+	margin-right: 6px;	
 }
 
-.figure_third {
-	margin-left: 0px;
-	margin-right:0px;
+/*article_adresse_h2*/
+.article_adresse h2 {
+	font-size: 17px;
+}
+
+/*article_adresse_p*/
+.article_adresse p {
+	font-size: 14px;
+}
+
+/*article_tel_h2*/
+.article_tel h2 {
+	font-size: 17px;
+	color: #000;
+	text-align: center;
+	padding-top: 12px;
+}
+
+/*article_tel_p*/
+.article_tel p {
+	font-size: 14px;
 }
 
 
-.figure_third ul {
-	font-size: 12.5px;
-	margin-top: 15px;
-	float: none;
+/*article_natel_h2*/
+.article_natel h2 {
+	font-size: 17px;
 }
 
-.figure_third ul li a:hover  {
-	font-size: 13px;
+/*article_tel_p*/
+.article_natel p {
+	font-size: 14px;
 }
+
+
+/*article_email_h2*/
+.article_email h2 {
+	font-size: 17px;
+}
+
+/*article_email_p*/
+.article_email p {
+	font-size: 14px;
+}
+
+/*article_website_h2*/
+.article_website h2 {
+	font-size: 17px;
+}
+
+/*article_website_p*/
+.article_website p {
+	font-size: 14px;
+}
+
+/*main_urheberrechte_p*/
+.urheberrechte p {
+	font-size: 12px;
+	margin-right: 24px;
+	margin-left: 24px;
+	margin-top: 28px;
+}
+
+
+
+
+
 
 /*hr*/
 
@@ -327,7 +457,7 @@ hr {
 	border-top-color: #CCC;
 	margin-left: 20px;
 	margin-right: 40px;
-	margin-top:273px;
+	margin-top:5px;
 }
 
 
@@ -363,8 +493,8 @@ footer .section_3 .container a {
 	font-weight:normal;
 	padding-right: 1px;
 	padding-left:1px;
-	
 }
+
 /*Impressum_AGB_Kontakt*/
 footer .section_3 .container a:hover {
 	font-size: 8.5px;
@@ -373,7 +503,6 @@ footer .section_3 .container a:hover {
 
 /*Copyright*/
 .section_3 .container span {
-	
 	float:right;
 	font-size:8.5px;
 }

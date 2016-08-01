@@ -46,7 +46,6 @@
 }
 
 /*main-jumbotron*/
-
 .jumbotron .container-fluide h1 {
 	font-size: 27px;
 }
@@ -55,28 +54,83 @@
 	font-size: 16px;
 }
 
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 58%;
-	margin-right: auto;
-	margin-left: auto;
+/*main-article_thirst*/
+
+/*main-row_a*/
+#wrap main .row {
+	
+	margin-top: -55px;
+	
+}
+	
+	
+.article_thirst {
+	height: 155px;
+	margin-left: 0px;
+	width: 105%;
+	padding-top:0px;
 }
 
-.figure_third {
-	margin-left: -111px;
-	margin-right:-123px;
+.article_thirst h1 a {
+	font-size: 19px; 
+	padding-left:19px;
+}
+
+.article_thirst h1 a:hover {
+	font-size: 20px;
+}
+.article_thirst ul li {
+	font-size: 15px;
+	padding-left:123px;
+}
+
+/*main-article_seconde*/
+.article_seconde {
+	height: 120px;
+	margin-left: 0px;
+	margin-top: 19px;
+	width: 105%;
+	padding-top:0px;
 }
 
 
-.figure_third ul {
-	font-size: 16px;
-	margin-top: 26px;
-	float: left;
+.article_seconde h1 a {
+	font-size: 19px;
+	padding-left:19px;
 }
 
- .figure_third ul li a:hover  {
-	font-size: 17px;
+.article_seconde h1 a:hover {
+	font-size: 20px;
+}
+
+.article_seconde ul li {
+	font-size: 15px;
+	padding-left:123px;
+}
+
+
+/*main-article_third*/
+.article_third {
+	height: 120px;
+	margin-left: 0px;
+	margin-top: 23px;
+	width: 105%;
+	padding-top:0px;
+	
+}
+
+
+.article_third h1 a {
+	font-size: 19px;
+	padding-left:19px;
+}
+
+.article_third h1 a:hover {
+	font-size: 20px;
+}
+.article_third ul li {
+	font-size: 15px;
+	padding-left:123px;
 }
 
 /*hr*/
@@ -88,7 +142,7 @@ hr {
 	border-top-color: #CCC;
 	margin-left: 24px;
 	margin-right: 60px;
-	margin-top: 52%;
+	margin-top: 40px;
 }
 
 
@@ -163,8 +217,6 @@ footer .section_3 .container a:hover {
 	background-color: #fff;
 	
 }
-
-
 /*main-jumbotron*/
 .jumbotron .container-fluide h1 {
 	font-size: 20px;
@@ -174,27 +226,73 @@ footer .section_3 .container a:hover {
 	font-size: 14px;
 }
 
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 68%;
+
+
+
+/*main-article_third*/
+.article_thirst {
+	height: 145px;
+	margin-top:-19px;
+}
+
+.article_thirst h1 a {
+	font-size: 18px;
+	padding-left:13px;
+}
+
+.article_thirst h1 a:hover {
+	font-size: 19px;
+
+}
+.article_thirst ul li {
+	font-size: 14px;
+	padding-left:0px;
+}
+
+/*main-article_seconde*/
+.article_seconde {
+	width: 105%;
+	height: 100px;
+}
+
+/*main-article_seconde*/
+.article_seconde h1 a {
+	font-size: 18px;
+	padding-left:13px;
+}
+
+.article_seconde h1 a:hover {
+	font-size: 19px;
+}
+
+.article_seconde ul li {
+	font-size: 14px;
+	padding-left:0px;
+}
+
+
+
+/*main-article_third*/
+.article_third {
+	height: 113px;
+	margin-left: 0px;
+	margin-top: 23px;
+	width: 105%;
 	
 }
 
-.figure_third {
-	margin-left: 0px;
-	margin-right:-12px;
+
+.article_third h1 a {
+	font-size: 18px;
+	padding-left:13px;
 }
 
-
-.figure_third ul {
-	font-size: 15px;
-	margin-top: 13px;
-	float: left;
+.article_third h1 a:hover {
+	font-size: 19px;
 }
-
-.figure_third ul li a:hover  {
-	font-size: 16px;
+.article_third ul li {
+	font-size: 14px;
+	padding-left:0px;
 }
 
 
@@ -206,7 +304,7 @@ hr {
 	border-top-color: #CCC;
 	margin-left: 20px;
 	margin-right: 40px;
-	margin-top: 85%;
+	margin-top: 20px;
 }
 
 /*footer-1-adresse*/
@@ -279,11 +377,6 @@ footer .section_3 .container a:hover {
 	font-size: 14px;
 }
 
-
-
-
-
-
 /*jumbtron h1*/
 .jumbotron .container-fluide h1 {
 	
@@ -296,26 +389,65 @@ footer .section_3 .container a:hover {
 	font-size: 12px;
 	
 }
-
-/*main-figure*/
-.figure {
-	width: 68%;
+/*main-article_thirst*/
+.article_thirst {
+	weight:105%;
+	height: 145px;
+	
+	
+	
 }
 
-.figure_third {
-	margin-left: 0px;
-	margin-right:0px;
+.article_thirst h1 a {
+	font-size: 16px;
+}
+
+.article_thirst h1 a:hover {
+	font-size: 17px;
+}
+.article_thirst ul li {
+	font-size: 14px;
+	
 }
 
 
-.figure_third ul {
-	font-size: 12.5px;
-	margin-top: 15px;
-	float: none;
+/*main-article_seconde*/
+.article_seconde {
+	height: 115px;
 }
 
-.figure_third ul li a:hover  {
-	font-size: 13px;
+
+.article_seconde h1 a {
+	font-size: 16px;
+}
+
+.article_seconde h1 a:hover {
+	font-size: 17px;
+}
+
+.article_seconde ul li {
+	font-size: 14px;
+}
+
+
+/*main-article_third*/
+
+.article_third {
+	height: 120px;
+	
+	
+}
+
+
+.article_third h1 a {
+	font-size: 16px;
+}
+
+.article_third h1 a:hover {
+	font-size: 17px;
+}
+.article_third ul li {
+	font-size: 14px;
 }
 
 /*hr*/
@@ -327,7 +459,7 @@ hr {
 	border-top-color: #CCC;
 	margin-left: 20px;
 	margin-right: 40px;
-	margin-top:273px;
+	margin-top:20px;
 }
 
 

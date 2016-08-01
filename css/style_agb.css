@@ -46,37 +46,58 @@
 }
 
 /*main-jumbotron*/
-
 .jumbotron .container-fluide h1 {
-	font-size: 27px;
+	font-size: 22px;
 }
 
 .jumbotron .container-fluide p {
+	font-size: 14px;
+}
+
+/*main-text*/
+/*main-row_a*/
+#wrap main .row_a {
+	width: 100%;
+	
+	
+}
+	
+	
+.article_thirst {
+	width: 105%;
+	height: 1px;
+	margin-left: 0px;
+	margin-top:24px;
+}
+
+
+/*main-article_seconde*/
+.article_seconde {
+	width: 105%;
+	height: 100%;
+	margin-left: 0px;
+	
+}
+
+
+.article_seconde h1{
+	font-size: 19px;
+}
+.article_seconde h3 {
 	font-size: 16px;
+	
 }
-
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 58%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.figure_third {
-	margin-left: -111px;
-	margin-right:-123px;
+.article_seconde p {
+	font-size: 14px;
 }
 
 
-.figure_third ul {
-	font-size: 16px;
-	margin-top: 26px;
-	float: left;
-}
-
- .figure_third ul li a:hover  {
-	font-size: 17px;
+/*main-article_third*/
+.article_third {
+	width: 105%;
+	height: 1px;
+	margin-left: 0px;
+	margin-top:4px;
 }
 
 /*hr*/
@@ -87,8 +108,8 @@ hr {
 	border-top-style: solid;
 	border-top-color: #CCC;
 	margin-left: 24px;
-	margin-right: 60px;
-	margin-top: 52%;
+	margin-right: 30px;
+	margin-top: 10px;
 }
 
 
@@ -162,39 +183,34 @@ footer .section_3 .container a:hover {
 	font-weight: bold;
 	background-color: #fff;
 	
+}	
+/*main_row*/
+#wrap main .row {
+	width: 90%;
+	margin-top: -130px;
 }
 
-
-/*main-jumbotron*/
-.jumbotron .container-fluide h1 {
-	font-size: 20px;
+.article_thirst {
+	margin-top:76px;
 }
 
-.jumbotron .container-fluide p {
-	font-size: 14px;
+.article_seconde h1{
+	font-size: 17px;
 }
-
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 68%;
+.article_seconde h3 {
+	font-size: 15px;
 	
 }
-
-.figure_third {
-	margin-left: 0px;
-	margin-right:-12px;
+.article_seconde p {
+	font-size: 13px;
 }
 
 
-.figure_third ul {
-	font-size: 15px;
-	margin-top: 13px;
-	float: left;
-}
-
-.figure_third ul li a:hover  {
-	font-size: 16px;
+/*main-article_third*/
+.article_third {
+	width: 100%;
+	height: 1px;
+	margin-top:-999px;
 }
 
 
@@ -205,8 +221,8 @@ hr {
 	border-top-style: solid;
 	border-top-color: #CCC;
 	margin-left: 20px;
-	margin-right: 40px;
-	margin-top: 85%;
+	margin-right: 25px;
+	margin-top: 20px;
 }
 
 /*footer-1-adresse*/
@@ -278,16 +294,11 @@ footer .section_3 .container a:hover {
 	text-align: center;
 	font-size: 14px;
 }
-
-
-
-
-
-
+	
 /*jumbtron h1*/
 .jumbotron .container-fluide h1 {
 	
-	font-size: 18px;
+	font-size: 18.5px;
 	
 }
 
@@ -297,25 +308,47 @@ footer .section_3 .container a:hover {
 	
 }
 
-/*main-figure*/
-.figure {
-	width: 68%;
-}
+/*main-article_thirst*/
 
-.figure_third {
-	margin-left: 0px;
-	margin-right:0px;
+#wrap main .row {
+	width: 100%;
+	margin-top: -130px;
 }
 
 
-.figure_third ul {
-	font-size: 12.5px;
-	margin-top: 15px;
-	float: none;
+
+
+
+.article_thirst {
+	width: 105%;
+	height: 1px;
+}
+	
+
+/*main-article_seconde*/
+.article_seconde {
+	width: 105%;
+	height: 100%;
 }
 
-.figure_third ul li a:hover  {
+
+.article_seconde h1 {
+	font-size: 15px;
+}
+.article_seconde h3 {
 	font-size: 13px;
+	color: #000;	
+}
+
+.article_seconde p {
+	font-size: 12px;
+}
+
+
+/*main-article_third*/
+.article_third {
+	width: 105%;
+	
 }
 
 /*hr*/
@@ -325,9 +358,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 20px;
-	margin-right: 40px;
-	margin-top:273px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top:20px;
 }
 
 

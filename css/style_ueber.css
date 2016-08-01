@@ -46,39 +46,58 @@
 }
 
 /*main-jumbotron*/
-
 .jumbotron .container-fluide h1 {
-	font-size: 27px;
+	font-size: 22px;
 }
 
 .jumbotron .container-fluide p {
-	font-size: 16px;
+	font-size: 14px;
 }
 
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 58%;
-	margin-right: auto;
-	margin-left: auto;
+/*main-article_thirst*/
+
+/*main-row_a*/
+#wrap main .row_a {
+	width: 100%;
+	
+	
+}
+	
+	
+.article_thirst {
+	width: 100%;
+	height: 1px;
+	margin-left: 0px;
+	margin-top:24px;
 }
 
-.figure_third {
-	margin-left: -111px;
-	margin-right:-123px;
+
+/*main-article_seconde*/
+.article_seconde {
+	width: 100%;
+	height: 100%;
+	margin-left: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 
-.figure_third ul {
-	font-size: 16px;
-	margin-top: 26px;
-	float: left;
+.article_seconde h1{
+	font-size: 20px;
 }
 
- .figure_third ul li a:hover  {
-	font-size: 17px;
+.article_seconde p {
+	font-size: 15px;
 }
 
+
+/*main-article_third*/
+.article_third {
+	width: 100%;
+	height: 1px;
+	margin-left: 0px;
+	margin-top:4px;
+}
 /*hr*/
 
 hr {
@@ -87,8 +106,8 @@ hr {
 	border-top-style: solid;
 	border-top-color: #CCC;
 	margin-left: 24px;
-	margin-right: 60px;
-	margin-top: 52%;
+	margin-right: 26px;
+	margin-top: 23px;
 }
 
 
@@ -164,39 +183,34 @@ footer .section_3 .container a:hover {
 	
 }
 
-
-/*main-jumbotron*/
-.jumbotron .container-fluide h1 {
-	font-size: 20px;
+/*main-article_thirst*/
+.article_thirst {
+	width: 100%;
 }
 
-.jumbotron .container-fluide p {
+
+/*main-article_seconde*/
+.article_seconde {
+	width: 100%;
+	height: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+/*main-article_seconde*/
+.article_seconde h1{
+	font-size: 18px;
+}
+
+.article_seconde p {
 	font-size: 14px;
-}
-
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 68%;
 	
 }
 
-.figure_third {
-	margin-left: 0px;
-	margin-right:-12px;
+/*main-article_third*/
+.article_third {
+	width: 100%;
+	
 }
-
-
-.figure_third ul {
-	font-size: 15px;
-	margin-top: 13px;
-	float: left;
-}
-
-.figure_third ul li a:hover  {
-	font-size: 16px;
-}
-
 
 /*hr*/
 hr {
@@ -204,9 +218,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 20px;
-	margin-right: 40px;
-	margin-top: 85%;
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-top: 24px;
 }
 
 /*footer-1-adresse*/
@@ -278,16 +292,10 @@ footer .section_3 .container a:hover {
 	text-align: center;
 	font-size: 14px;
 }
-
-
-
-
-
-
 /*jumbtron h1*/
 .jumbotron .container-fluide h1 {
 	
-	font-size: 18px;
+	font-size: 18.5px;
 	
 }
 
@@ -297,25 +305,35 @@ footer .section_3 .container a:hover {
 	
 }
 
-/*main-figure*/
-.figure {
-	width: 68%;
-}
-
-.figure_third {
-	margin-left: 0px;
-	margin-right:0px;
+/*main-article_thirst*/
+.article_thirst {
+	width: 115%;
+	margin-left: -15px;
 }
 
 
-.figure_third ul {
-	font-size: 12.5px;
-	margin-top: 15px;
-	float: none;
+/*main-article_seconde*/
+.article_seconde {
+	width: 115%;
+	height: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-left: -15px;
 }
 
-.figure_third ul li a:hover  {
+/*main-article_seconde*/
+.article_seconde h1{
+	font-size: 16px;
+}
+
+.article_seconde p {
 	font-size: 13px;
+}
+
+/*main-article_third*/
+.article_third {
+	width: 115%;
+	margin-left: -15px;
 }
 
 /*hr*/
@@ -325,9 +343,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 20px;
-	margin-right: 40px;
-	margin-top:273px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top:23px;
 }
 
 

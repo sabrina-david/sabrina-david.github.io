@@ -46,7 +46,6 @@
 }
 
 /*main-jumbotron*/
-
 .jumbotron .container-fluide h1 {
 	font-size: 27px;
 }
@@ -55,28 +54,86 @@
 	font-size: 16px;
 }
 
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 58%;
-	margin-right: auto;
-	margin-left: auto;
+/*main*/
+/*main-article*/
+
+/*main-row_a*/
+#wrap main .row {
+	width: 100%;
+}
+	
+.article_thirst {
+	height: 110px;
+	margin-left: 0px;
+	width:100%;
 }
 
-.figure_third {
-	margin-left: -111px;
-	margin-right:-123px;
+.article_thirst h1{
+	font-size: 20px;
+}
+
+.article_thirst p {
+	font-size: 15px;
 }
 
 
-.figure_third ul {
-	font-size: 16px;
-	margin-top: 26px;
-	float: left;
+/*main-article_seconde*/
+.article_seconde {
+	height: 80px;
+	margin-left: 0px;
+	margin-top:4px;
+	width:100%;
 }
 
- .figure_third ul li a:hover  {
+
+.article_seconde h1{
+	font-size: 20px;
+}
+
+
+.article_seconde p {
+	font-size: 15px;
+}
+
+
+
+/*main-row_b*/
+#wrap main .row {
+	width: 100%;
+}
+	
+/*main-article_thirst_b*/
+.article_thirst_b {
+	height: 110px;
+	margin-left: 0px;
+	width:100%;
+}
+
+.article_thirst_b h3{
 	font-size: 17px;
+}
+
+.article_thirst_b p {
+	font-size: 15px;
+}
+
+
+/*main-article_seconde_b*/
+.article_seconde_b {
+	height: 110px;
+	margin-left: 0px;
+	margin-top: 4px;
+	width:100%;
+}
+
+
+.article_seconde_b h3{
+	font-size: 17px;
+}
+
+
+.article_seconde_b p {
+	font-size: 15px;
 }
 
 /*hr*/
@@ -86,9 +143,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 24px;
-	margin-right: 60px;
-	margin-top: 52%;
+	margin-left: 6px;
+	margin-right: 15px;
+	margin-top: 20px;
 }
 
 
@@ -162,8 +219,7 @@ footer .section_3 .container a:hover {
 	font-weight: bold;
 	background-color: #fff;
 	
-}
-
+}	
 
 /*main-jumbotron*/
 .jumbotron .container-fluide h1 {
@@ -174,29 +230,73 @@ footer .section_3 .container a:hover {
 	font-size: 14px;
 }
 
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 68%;
-	
+
+
+/*main-row_a*/
+/*main-article_thirst*/
+.article_thirst {
+	height: 129px;
+	width:100%;
 }
 
-.figure_third {
-	margin-left: 0px;
-	margin-right:-12px;
+.article_thirst h1 {
+	font-size: 17px;
 }
 
 
-.figure_third ul {
+.article_thirst p {
 	font-size: 15px;
-	margin-top: 13px;
-	float: left;
 }
 
-.figure_third ul li a:hover  {
+
+
+/*main-article_seconde*/
+.article_seconde {
+	height: 86px;
+	width:100%;
+}
+
+.article_seconde h1 {
+	font-size: 17px;
+}
+
+
+.article_seconde p {
+	font-size: 15px;
+}
+
+
+/*main-row_b*/
+/*main-article_thirst_b*/
+.article_thirst_b {
+	height: 130px;
+	width:100%;
+}
+
+.article_thirst_b h3 {
 	font-size: 16px;
 }
 
+
+.article_thirst_b p {
+	font-size: 15px;
+}
+
+
+/*main-article_seconde_b*/
+.article_seconde_b {
+	height: 130px;
+	width:100%;
+}
+
+.article_seconde_b h3 {
+	font-size: 16px;
+}
+
+
+.article_seconde_b p {
+	font-size: 15px;
+}
 
 /*hr*/
 hr {
@@ -204,9 +304,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 20px;
-	margin-right: 40px;
-	margin-top: 85%;
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-top: 20px;
 }
 
 /*footer-1-adresse*/
@@ -278,45 +378,89 @@ footer .section_3 .container a:hover {
 	text-align: center;
 	font-size: 14px;
 }
-
-
-
-
-
-
+	
 /*jumbtron h1*/
 .jumbotron .container-fluide h1 {
-	
 	font-size: 18px;
-	
 }
 
 /*jumbtron p*/
 .jumbotron .container-fluide p {
 	font-size: 12px;
+}
+
+
+/*main row a*/
+
+/*main-article_thirst*/
+
+.article_thirst {
+	height: 156px;
+	width:105%;
 	
 }
 
-/*main-figure*/
-.figure {
-	width: 68%;
-}
-
-.figure_third {
-	margin-left: 0px;
-	margin-right:0px;
+.article_thirst h1{
+	font-size: 17px;
 }
 
 
-.figure_third ul {
-	font-size: 12.5px;
-	margin-top: 15px;
-	float: none;
+.article_thirst p {
+	font-size: 14px;
 }
 
-.figure_third ul li a:hover  {
-	font-size: 13px;
+
+/*main-article_seconde*/
+.article_seconde {
+	height: 90px;
+	width:105%;
+	
 }
+
+.article_seconde h1 {
+	font-size: 17px;
+}
+
+.article_seconde p {
+	font-size: 14px;
+}
+
+
+
+/*main row b*/
+
+/*main-article_thirst_b*/
+
+.article_thirst_b {
+	height: 124px;
+	width:105%;
+	
+}
+
+.article_thirst_b h3{
+	font-size: 16px;
+}
+
+
+.article_thirst_b p {
+	font-size: 14px;
+}
+
+
+/*main-article_seconde_b*/
+.article_seconde_b {
+	height: 124px;
+	width:105%;
+}
+
+.article_seconde_b h3 {
+	font-size: 16px;
+}
+
+.article_seconde_b p {
+	font-size: 14px;
+}
+
 
 /*hr*/
 
@@ -325,9 +469,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 20px;
-	margin-right: 40px;
-	margin-top:273px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top:20px;
 }
 
 

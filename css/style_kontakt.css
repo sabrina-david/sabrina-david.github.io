@@ -46,39 +46,106 @@
 }
 
 /*main-jumbotron*/
-
 .jumbotron .container-fluide h1 {
-	font-size: 27px;
+	font-size: 22px;
 }
 
 .jumbotron .container-fluide p {
-	font-size: 16px;
+	font-size: 14px;
 }
 
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 58%;
-	margin-right: auto;
-	margin-left: auto;
+/*jumbtron Hintergrund*/
+.jumbotron .container-fluide {
+	margin-bottom:-36px;
 }
 
-.figure_third {
-	margin-left: -111px;
-	margin-right:-123px;
+/*formular ganze Breite des Formulars und Hintergrund d.h weiss plus blau*/
+.formular .container-fluide .row {
+	width: 89%;
+	margin-left: 70px;
+	margin-bottom:10px;
+} 
+/*Kontaktieren _Sie oberer Titel h1 und p*/
+.formular .container-fluide .starter-template  { 								
+	margin-bottom: 30px;
+}
+
+/*Kontaktieren_Sie __h1*/
+.formular .container-fluide .starter-template h1 {
+	font-size: 19px;
+	margin-left: 70px;
+	
+}
+
+/*Kontaktieren_Sie_p*/
+.formular .container-fluide .starter-template .lead {
+	font-size: 15px;
+	margin-left: 70px;
 }
 
 
-.figure_third ul {
-	font-size: 16px;
-	margin-top: 26px;
-	float: left;
+/*formular Ausgangssprache Zielsprache_Dienstleistungen*/
+#form1 {
+	font-size: 15px;
+	padding-left:18px;
 }
 
- .figure_third ul li a:hover  {
-	font-size: 17px;
+/*Formular_Vorname_Nachname_und Rest*/
+ .form-group label {
+	
+	font-size: 15px;
+	
 }
 
+
+
+ /*formular Bitte wählen*/
+#form1 .form-group .form-control {
+	font-size: 14px;
+}
+
+ /*formular Durchsuchen*/
+ .form-group #input-1a {
+	padding-left: 100px;
+	margin-top: -30px;
+	font-size: 14px;
+	
+	
+}
+
+
+/*formular_unten Senden Reset*/
+ #form1 .form-group .btn.btn.primary {
+	margin-right: 58px;
+	margin-bottom:22px;
+	margin-top: 10px;
+ }
+ 
+ .senden {
+	
+	margin-bottom: 33px;
+	margin-top: 15px;
+	border-radius: 14px;
+	border: 3px solid #FF0;
+	
+	font-size:15px;	
+	
+}
+
+.loeschen {
+	margin-top: 15px;
+	margin-bottom: 33px;
+	border-radius: 14px;
+	border: 3px solid #FF0;
+	font-size:15px;	
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 /*hr*/
 
 hr {
@@ -86,9 +153,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 24px;
-	margin-right: 60px;
-	margin-top: 52%;
+	margin-left: 14px;
+	margin-right: 40px;
+	margin-top: 8px;
 }
 
 
@@ -164,38 +231,77 @@ footer .section_3 .container a:hover {
 	
 }
 
+/*main-formular Breite des Formulars und Hintergrund*/
+.formular .container-fluide .row {
+	width: 100%;
+	margin-left: 32px;
+	margin-bottom:6px;
+} 
 
-/*main-jumbotron*/
-.jumbotron .container-fluide h1 {
-	font-size: 20px;
-}
-
-.jumbotron .container-fluide p {
-	font-size: 14px;
-}
-
-/*main-figure*/
-.figure {
-	margin-top: -69px;
-	width: 68%;
+/*Kontaktieren _Sie oberer Titel h1 und p*/
+.formular .container-fluide .starter-template  { 								
 	
 }
 
-.figure_third {
-	margin-left: 0px;
-	margin-right:-12px;
+
+
+/*Kontaktieren_Sie_h1*/
+.formular .container-fluide .starter-template h1 {
+	font-size: 18px;
+	margin-left: 36px;
+	
+}
+
+/*Kontaktieren_Sie_p*/
+.formular .container-fluide .starter-template .lead {
+	font-size: 14px;
+	margin-left: 36px;
 }
 
 
-.figure_third ul {
-	font-size: 15px;
-	margin-top: 13px;
-	float: left;
+/*formular Ausgangssprache Zielsprache_Dienstleistungen*/
+#form1 {
+	font-size: 14px;
+	padding-left:15px;
 }
 
-.figure_third ul li a:hover  {
-	font-size: 16px;
+  /*formular Bitte wählen*/
+#form1 .form-group .form-control {
+	font-size: 14px;
 }
+/*Formular_Vorname_Nachname_und Rest*/
+ .form-group label {
+	font-size: 14px;
+}
+ /*formular Durchsuchen*/
+ .form-group #input-1a {
+	padding-left: 90px;
+	margin-top: -30px;
+	font-size: 14px;
+	
+	
+}
+
+/*formular_unten Senden Reset*/
+ #form1 .form-group .btn.btn.primary {
+	;
+	font-size: 14px;
+	
+ }
+ 
+ .senden {
+	border-radius: 14px;
+	border: 2px solid #FF0;
+	font-size:14px;	
+	
+}
+
+.loeschen {
+	border-radius: 14px;
+	border: 2px solid #FF0;
+	font-size:14px;	
+}
+ 
 
 
 /*hr*/
@@ -204,9 +310,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 20px;
-	margin-right: 40px;
-	margin-top: 85%;
+	margin-left: 8px;
+	margin-right: 15px;
+	margin-top: 1px;
 }
 
 /*footer-1-adresse*/
@@ -278,16 +384,10 @@ footer .section_3 .container a:hover {
 	text-align: center;
 	font-size: 14px;
 }
-
-
-
-
-
-
 /*jumbtron h1*/
 .jumbotron .container-fluide h1 {
 	
-	font-size: 18px;
+	font-size: 18.5px;
 	
 }
 
@@ -296,27 +396,89 @@ footer .section_3 .container a:hover {
 	font-size: 12px;
 	
 }
+/*main-formular Breite des Formulars und Hintergrund*/
+.formular .container-fluide .row {
+	width: 110%;
+	margin-left: 15px;
+	margin-bottom:4px;
+	
+} 
 
-/*main-figure*/
-.figure {
-	width: 68%;
+//*Kontaktieren_Sie __h1*/
+.formular .container-fluide .starter-template h1 {
+	font-size: 16px;
+	margin-left: 15px;
+	
 }
 
-.figure_third {
-	margin-left: 0px;
-	margin-right:0px;
+/*Kontaktieren_Sie __p*/
+.formular .container-fluide .starter-template .lead {
+	font-size: 12px;
+	margin-left: 15px;
+	margin-bottom: 9px;
 }
 
 
-.figure_third ul {
-	font-size: 12.5px;
+/*formular Ausgangssprache Zielsprache_Dienstleistungen*/
+#form1 {
+	font-size: 11px;
+	padding-left:13px;
+}
+
+
+ /*formular Bitte wählen*/
+#form1 .form-group .form-control {
+	color: #000;
+	font-size: 11px;
+}
+/*Formular_Vorname_Nachname_und Rest*/
+ .form-group label {
+	font-size: 11px;
+}
+
+ /*formular Bitte wählen*/
+#form1 .form-group .form-control {
+	
+	font-size: 11px;
+	
+}
+
+ /*formular Durchsuchen*/
+ .form-group #input-1a {
+	padding-left: 70px;
+	margin-top: -25px;
+	font-size: 11px;
+	
+	
+}
+
+
+
+/*formular_unten Senden Reset*/
+ #form1 .form-group .btn.btn.primary {
+	margin-right:19px;
+	margin-bottom: 18px;
+	font-size: 11px;
+	margin-top: 6px;
+ }
+ 
+ .senden {
+	margin-bottom: 23px;
 	margin-top: 15px;
-	float: none;
+	border-radius: 13px;
+	border: 1px solid #FF0;
+	font-size:11px;	
+	
 }
 
-.figure_third ul li a:hover  {
-	font-size: 13px;
+.loeschen {
+	margin-bottom: 23px;
+	margin-top: 15px;
+	border-radius: 13px;
+	border: 1px solid #FF0;
+	font-size:11px;	
 }
+
 
 /*hr*/
 
@@ -325,9 +487,9 @@ hr {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCC;
-	margin-left: 20px;
-	margin-right: 40px;
-	margin-top:273px;
+	margin-left: 8px;
+	margin-right: 15px;
+	margin-top:1px;
 }
 
 

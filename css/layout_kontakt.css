@@ -1,0 +1,352 @@
+@charset "utf-8"; 
+/* Einfache fließende Medien
+   Hinweis: Für fließende Medien müssen Sie die Attribute 'height' und 'width' des Medium aus dem HTML-Code entfernen
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 unterstützt keine maximale Breite, verwenden Sie daher eine Standardbreite von 100% */
+.ie6 img {
+	width:100%;
+}
+
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+/*body zentrieren der Website*/	
+body {
+	margin-right: auto;
+	margin-left: auto;
+	
+	/*background-color: #fff;
+	background-image: url(../img/hintergrund.png);
+	background-repeat: repeat-x;*/	
+}
+/*wrap zentrieren der Website mit einer Hintergrundfarbe*/
+#wrap {
+	background-color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header, nav, main, aside, footer {
+	display: block;
+}
+
+/*Logo*/
+#wrap header .navbar.navbar-default .container .navbar-header a img {
+	background-color: #Fff;
+}
+
+
+/*navbar.navbar-default = ganze*/
+.navbar.navbar-default {
+	border-width: 0px;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;	
+}
+
+/*navbar-header = Logo*/
+.navbar-header {
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;	
+}
+
+.navbar-header a img {
+	padding-left: 30px;
+	padding-top: 13px;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;	
+}
+
+/*#defaultNavbar1=Navigation rechts*/
+#defaultNavbar1 {
+	float: right;
+	padding-top: 49px;
+	background-color: #fff;	
+	border-color: #FFFFFF;	
+}
+
+/*.ul*/
+.nav.navbar-nav {
+	background-color: #FFFFFF;
+}
+
+/*.Hamburger*/
+.container .navbar-header .navbar-toggle.collapsed {
+	background-color: #ff0;
+}
+
+/*li, a */
+.nav.navbar-nav .active a {
+	font-weight: normal;
+	color: #0000FF;
+	font-size: 16px;
+	background: #FFFFFF;
+}
+
+/*li, a:hover */
+.nav.navbar-nav .active a:hover {
+	color: #0000FF;
+	font-weight:bold;
+	font-size:17px;
+	background:#FFFFFF;
+}
+
+/*li*/
+.nav.navbar-nav .active {
+	/*margin-left: 20px;*/
+	margin-top: -33px;
+	margin-right: 65px;
+}
+
+/*main*/
+/*main-jumbtron*/
+#wrap main .jumbotron {
+	padding-top: 10px;
+	background-color:#fff;
+}
+
+/*jumbtron h1*/
+.jumbotron .container-fluide h1 {
+	color: #FFF;/* #0CF;*/
+	font-size: 34px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 13px;
+}
+/*jumbtron p*/
+.jumbotron .container-fluide p {
+	font-size: 17px;
+	text-align: center;
+	color: #FFF;/* #0000FF;*/
+	padding-bottom: 9px;
+}
+
+
+/*jumbtron Hintergrund*/
+.jumbotron .container-fluide {
+	background-color: #00F; /* #D8D8D8;*/
+	margin-top: -41px;
+	margin-bottom: -56px;
+}
+/*formular ganze Breite des Formulars und Hintergrund d.h weiss plus blau*/
+.formular .container-fluide .row {
+	background-color:  #fff;
+	width: 70%;
+	margin-left:120px;
+	height: auto;
+	
+} 
+/*formular nicht ganze Breite des Formulars und Hintergrund d.h nur blau*/
+.row .col-md-6.col-md-offset-3 {
+	background-color: #0CF;
+	width: 80%;
+	higth: 100%;
+	border-radius: 19px;
+	
+}
+
+
+/*Kontaktieren _Sie oberer Titel h1 und p*/
+.formular .container-fluide .starter-template  { 								
+background-color: #FFF;
+		margin-bottom: 30px;
+}
+
+/*Kontaktieren_Sie __h1*/
+.formular .container-fluide .starter-template h1 {
+	font-size: 21px;
+	font-weight: bold;
+	text-align: left;
+	padding-top:0;	
+	margin-left: 120px;
+}
+
+/*Kontaktieren_Sie_p*/
+.formular .container-fluide .starter-template .lead {
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	margin-top: -3px;
+	margin-bottom: 26px;
+	margin-left: 120px;
+}
+
+
+/*formular Ausgangssprache Zielsprache_Dienstleistungen*/
+#form1 {
+	font-weight: normal;
+	text-align: left;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	padding-top: 25px;
+	padding-left: 23px;
+	padding-right: 23px;	
+}
+
+/*Formular_Vorname_Nachname_und Rest*/
+ .form-group label {
+	font-weight: normal;
+	text-align: left;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+ /*formular Bitte wählen*/
+#form1 .form-group .form-control {
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 9px;
+	margin-bottom: 34px;
+}
+
+ /*formular Durchsuchen*/
+ .form-group #input-1a {
+	padding-left: 123px;
+	margin-top: -30px;
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	
+}
+
+
+/*formular_unten Senden Reset*/
+#form1 .btn.btn-default.btn-sm {
+	margin-bottom: 24px;
+	margin-top: 12px;
+	margin-right:150px;	
+	
+}
+.senden {
+	background-color: #FFf;
+	margin-bottom: 23px;
+	margin-top: 25px;
+	border-radius: 17px;
+	border: 3px solid #FF0;
+	color: #000;
+	font-size:15px;	
+	
+}
+
+.loeschen {
+	float: right;
+	background-color:  #FFf;
+	margin-top: 25px;
+	margin-bottom: 23px;
+	border-radius: 17px;
+	border: 3px solid #FF0;
+	color: #000;
+	font-size:15px;	
+}
+
+/*Pflichtfelder_Vertraulich
+#wrap main .manadatory {
+	padding-left: 400px;
+}*/
+
+
+hr {
+	width: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	margin-left: 10px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+
+/*footer*/
+footer  {
+	max-width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+
+/*footer-1-adresse*/
+.section_1  ul  {
+	list-style-type:none;
+	padding-left: 90px;
+	padding-top:12px;
+	padding-bottom:12px;
+	
+}
+
+/*footer-2-telefonnummer*/
+.section_2 ul  {
+	float: right;
+	list-style-type: none;
+	
+	
+}
+
+
+.section_2 ul li {
+	float: right;
+	padding-right: 90px;
+	font-size:15px;
+	font-weight:normal;
+	color: #000;
+	
+	
+}
+
+
+/*footer unterer Balken*/
+.section_3 {
+	margin-top: -13px;
+	background-color: #CCC;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	border-top-width: 1.5px;
+	border-bottom-width: 1.5px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+
+/*Impressum_AGB_Kontakt*/
+footer .section_3 .container a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:normal;
+	color: #000;
+	padding-right: 9px;
+	padding-left:4px;
+}
+
+/*Impressum_AGB_Kontakt*/
+footer .section_3 .container a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #00F; 
+	font-weight:bold;
+	text-decoration: underline;	
+}
+
+
+
+/*Copyright*/
+.section_3 .container span {
+	padding-top: 0px;
+	color: #fff;
+	float:right;
+	font-size:15px;
+	font-weight: normal;
+}
