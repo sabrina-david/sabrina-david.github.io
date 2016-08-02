@@ -197,9 +197,9 @@ background-color: #FFF;
 	font-weight: normal;
 	text-align: left;
 	font-size: 16px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, 		sans-serif;
 	color: #000;
-}
+ }
 
  /*formular Bitte wählen*/
 #form1 .form-group .form-control {
@@ -211,14 +211,14 @@ background-color: #FFF;
 }
 
  /*formular Durchsuchen*/
- .form-group #input-1a {
-	padding-left: 123px;
-	margin-top: -30px;
-	color: #000;
-	font-size: 14px;
-	font-weight: normal;
+ 
+ 
+#wrap main .formular .container-fluide .row .col-md-6.col-md-offset-3 #form1 .form-group #durchsuchen {
+	
 	
 }
+
+ 
 
 
 /*formular_unten Senden Reset*/
@@ -233,21 +233,21 @@ background-color: #FFF;
 	margin-bottom: 23px;
 	margin-top: 25px;
 	border-radius: 17px;
-	border: 3px solid #FF0;
 	color: #000;
-	font-size:15px;	
+	font-size: 15px;
+	border: 2px solid #FFF;
 	
 }
 
 .loeschen {
 	float: right;
-	background-color:  #FFf;
+	background-color: #FFf;
 	margin-top: 25px;
 	margin-bottom: 23px;
 	border-radius: 17px;
-	border: 3px solid #FF0;
+	border: 2px solid #FFF;
 	color: #000;
-	font-size:15px;	
+	font-size: 15px;
 }
 
 /*Pflichtfelder_Vertraulich

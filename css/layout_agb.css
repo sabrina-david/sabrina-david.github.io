@@ -153,7 +153,7 @@ header, nav, main, aside, footer {
 .article_thirst {
 	width: 100%;
 	height: 1px;
-	background-color: #F00;/* #F90;*/
+	background-color: #F9F;/* #F90;*/
 	display: block;
 }
 
@@ -163,7 +163,7 @@ header, nav, main, aside, footer {
 .article_seconde {
 	margin-left: 94px;
 	width: 85%;
-	background-color: #F00;
+	background-color: #F9F;
 	height: 100%;
 	display: block;
 	padding-left: 15px;
@@ -208,7 +208,7 @@ header, nav, main, aside, footer {
 .article_third {
 	width: 50%;
 	height: 1px;
-	background-color: #F00;/* #D8D8D8;*/
+	background-color: #F9F;/* #D8D8D8;*/
 	display: block;
 	margin-top: 15px;
 	margin-left: 244px;
