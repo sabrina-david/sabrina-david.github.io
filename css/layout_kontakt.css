@@ -136,27 +136,28 @@ header, nav, main, aside, footer {
 	margin-top: -41px;
 	margin-bottom: -56px;
 }
-/*formular ganze Breite des Formulars und Hintergrund d.h weiss plus blau*/
+
+
+/*formular */
 .formular .container-fluide .row {
-	background-color:  #fff;
+	/*background-color:  #f0f;*/
 	width: 70%;
 	margin-left:120px;
 	height: auto;
 	
 } 
-/*formular nicht ganze Breite des Formulars und Hintergrund d.h nur blau*/
+/*formular_Rand */
 .row .col-md-6.col-md-offset-3 {
-	background-color: #0CF;
-	width: 80%;
+	/*background-color: #0CF;*/
+	width: 66%;
 	higth: 100%;
-	border-radius: 19px;
-	
+	border: 5px solid #ff0;
+	border-radius: 21px;
 }
 
 
 /*Kontaktieren _Sie oberer Titel h1 und p*/
 .formular .container-fluide .starter-template  { 								
-background-color: #FFF;
 		margin-bottom: 30px;
 }
 
@@ -179,80 +180,143 @@ background-color: #FFF;
 	margin-left: 120px;
 }
 
-
-/*formular Ausgangssprache Zielsprache_Dienstleistungen*/
-#form1 {
-	font-weight: normal;
-	text-align: left;
+/*formular */
+#form1{
 	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #000;
-	padding-top: 25px;
-	padding-left: 23px;
-	padding-right: 23px;	
-}
-
-/*Formular_Vorname_Nachname_und Rest*/
- .form-group label {
 	font-weight: normal;
-	text-align: left;
-	font-size: 16px;
-	font-family: Arial, Helvetica, 		sans-serif;
-	color: #000;
- }
-
- /*formular Bitte wählen*/
-#form1 .form-group .form-control {
-	color: #000;
-	font-size: 14px;
-	font-weight: normal;
-	margin-top: 9px;
-	margin-bottom: 34px;
+	color: #333;
+	padding-left:60px;
+	}
+	
+	
+	
+/*formular_handzeichen */
+label{
+	cursor: pointer;
+	}
+		
+	
+/*formular_Radiobuton_Anrede */
+.radio-angepasst {
+	display:inline;
+	}
+	
+/*formular_Radiobuton_input betrifft die Kreise */
+.radio-angepasst input {
+	margin-left:90px;
+	margin-top: 24px;
+	margin-bottom:30px;
+	
 }
 
- /*formular Durchsuchen*/
+
+
+/*formular_label_Elemente nebeneinander */
+.textfeld label, .auswahliste label, .kommentar label, .durchsuchen label{
+			display: inline-block;
+            margin: 0 12% 0 0;
+            vertical-align: top;
+            width: 20%;
+			cursor: pointer;
+	}
+
+
+		
+/*formular_input_felder nebeneinander */	
+.textfeld input, .auswahliste input, .kommentar input, .durchsuchen input {
+            display: inline-block;
+            width: 50%;/*Abstand zwischen label und input */
+			} 
+        
+	.textfeld {
+		margin-top:23px;
+		}
+		
+	.textfeld input{
+		border: 1px solid #CCC;
+			box-shadow:0px 1px 1px rgba(0,0,255,1)  inset,0px 0px 8px rgba(0,0,0,0);
+			}
+		
+	.auswahliste {
+		margin-top:23px;
+		
+			}
+	
+	.kommentar {
+		margin-top:23px;
+	}
+	
+	.durchsuchen {
+		margin-top:23px;
+		
+	}
+	.durchsuchen [type="file"]{
+		
+		}	
  
- 
-#wrap main .formular .container-fluide .row .col-md-6.col-md-offset-3 #form1 .form-group #durchsuchen {
-	
-	
+
+/*formular_Absende,_Loschbutton */
+.btn {
+	display:inline;	
+}
+.btn [type]{
+	margin-top:23px;
+	margin-bottom:23px;
+	padding: 3px 6px;
+	font-size:16px;
 }
 
- 
-
-
-/*formular_unten Senden Reset*/
-#form1 .btn.btn-default.btn-sm {
-	margin-bottom: 24px;
-	margin-top: 12px;
-	margin-right:150px;	
+.btn [type="reset"]{
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000;
+	margin-right:23px;
+}
+.btn [type="submit"]{
+	margin-left:300px;
+	float:left;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000;
+	}
+/*formular_klick auf Felder */
+:focus{
+	background-color:#FFf;
+}
+ /*input:valid{
+        border: 1px solid green;
+    }
+    input:invalid{
+        border:1px solid red;
+    }*/
 	
-}
-.senden {
-	background-color: #FFf;
-	margin-bottom: 23px;
-	margin-top: 25px;
-	border-radius: 17px;
-	color: #000;
-	font-size: 15px;
-	border: 2px solid #FFF;
+/*formular_Text  in den Feldern */
+ ::placeholder{
+            color: #0CF;
+    }
+    
+  ::-webkit-input-placeholder{
+            color: #0CF;
+    }
+  ::-moz-input-placeholder{
+            color: #0CF;
+    }
+  :-ms-input-placeholder{
+            color: #0CF;
+    }	
 	
-}
+	.end{
+		display:block;
+		}
 
-.loeschen {
-	float: right;
-	background-color: #FFf;
-	margin-top: 25px;
-	margin-bottom: 23px;
-	border-radius: 17px;
-	border: 2px solid #FFF;
-	color: #000;
-	font-size: 15px;
-}
 
 /*Pflichtfelder_Vertraulich
 #wrap main .manadatory {
-	padding-left: 400px;
+	padding-
+	: 400px;
 }*/
 
 

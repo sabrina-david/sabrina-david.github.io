@@ -189,11 +189,12 @@ header, nav, main, aside, footer {
 	font-size: 17px;
 	color: #000;
 	font-weight: normal;
-	text-align: center;
+	text-align: left;
 	line-height: 140%;
-	margin-left: -12px;
-	padding-left:14px;
-	padding-bottom:12px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-left: 20px;
 }
 
 
